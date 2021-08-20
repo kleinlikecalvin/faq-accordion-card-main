@@ -1,6 +1,6 @@
 body{
     max-width: 1440px;
-    background-image: url(./images/bg-pattern-desktop.svg);
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 .attribution { 
     font-size: 11px; text-align: center; 
@@ -11,6 +11,5 @@ body{
 @media screen and (max-width: 1370px){
     body{
         max-width: 375px;
-        background-image: url(./images/bg-pattern-mobile.svg);
     }
 }
