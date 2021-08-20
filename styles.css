@@ -1,6 +1,16 @@
+body{
+    max-width: 1440px;
+    background-image: url(./images/bg-pattern-desktop.svg);
+}
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+@media screen and (max-width: 1370px){
+    body{
+        max-width: 375px;
+        background-image: url(./images/bg-pattern-mobile.svg);
+    }
 }
