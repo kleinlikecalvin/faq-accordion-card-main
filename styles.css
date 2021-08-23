@@ -1,7 +1,9 @@
 /* NEED HELP WITH 
+1. The overflow isn't hiding
 2. Align the arrow-icon to the right margin
 3. On click flip the arrow-icon and make the faq-list-a visible
-
+4. Mobile
+5. Readme
 */
 
 html{
@@ -33,26 +35,26 @@ body{
     margin-top: var(--container-margin);
     margin-bottom: var(--container-margin);
 }
-.desktop-graphix-container{
-    overflow: hidden;
-}
+/* .desktop-graphix-container{
+    display: flex;
+}  */
 #desktop-img-bg{
     position: absolute;
-    object-fit: contain;
-    margin-top: -315px;
-    margin-left: -650px;
-    border: 3px solid black;
+    overflow: hidden;
+    margin-top: -370px;
+    margin-left: -600px;
 }
 #desktop-main-img{
     position: absolute;
+    overflow: hidden;
+    object-fit: cover;
     margin-top: -20px;
-    margin-left: -130px;
-    border: 3px solid lightgreen;
+    margin-left: -100px;
 }
 #orange-box{
     position: absolute;
-    margin-top: 110px;
-    margin-left: -180px;
+    margin-top: 120px;
+    margin-left: -140px;
 }
 .mobile-graphix-container{
     display: none;
