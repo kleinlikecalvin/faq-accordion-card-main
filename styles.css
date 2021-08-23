@@ -6,9 +6,9 @@ body{
     border-radius: 10px;
     margin: 10em auto;
     display: flex;
+    background: #fff;
 }
 .mobile-graphix-container{
-    display: none;
     visibility: hidden;
 }
 .attribution { 
@@ -17,8 +17,15 @@ body{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-@media screen and (max-width: 1370px){
+/* @media screen and (max-width: 1370px){
     body{
         max-width: 375px;
     }
-}
+    .desktop-graphix-container{
+        visibility: hidden;
+    }
+    .mobile-graphix-container{
+        display: none;
+        visibility: hidden;
+    }
+} */
