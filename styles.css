@@ -1,8 +1,6 @@
 /* NEED HELP WITH 
-1. The faq-container goes down super far and I can't figure out why
 2. Align the arrow-icon to the right margin
 3. On click flip the arrow-icon and make the faq-list-a visible
-4. The space between the faq-list-q's is too wide
 
 */
 
@@ -14,7 +12,7 @@ html{
     --very-dark-grey: hsl(237, 12%, 33%);
     --dark-grey: hsl(240, 6%, 50%);
     --light-grey: hsl(240, 5%, 91%);
-
+    --container-margin: 4em;
 }
 body{
     max-width: 1440px;
@@ -23,14 +21,17 @@ body{
     color: var(--dark-blue);
 }
 .container{
-    border-radius: 40px;
+    border-radius: 20px;
     margin: 8em auto;
     display: flex;
     background:#fff;
     width: 920px;
+    box-shadow: 0px 9px 26px -12px var(--dark-blue);
 }
 .graphix-container{
     width: 50%;
+    margin-top: var(--container-margin);
+    margin-bottom: var(--container-margin);
 }
 .desktop-graphix-container{
     overflow: hidden;
@@ -44,27 +45,28 @@ body{
 }
 #desktop-main-img{
     position: absolute;
-    margin-top: 100px;
-    margin-left: -50px;
+    margin-top: -20px;
+    margin-left: -130px;
     border: 3px solid lightgreen;
 }
 #orange-box{
     position: absolute;
-    margin-top: 275px;
-    margin-left: -130px;
+    margin-top: 110px;
+    margin-left: -180px;
 }
 .mobile-graphix-container{
     display: none;
 }
 .faq-container{
-    margin: 3em;
+    width: 50%;
+    margin-top: var(--container-margin);
+    margin-bottom: var(--container-margin);
 }
 .faq-list{
     list-style: none;
     padding: 0;
 }
 .faq-container h1{
-    font-weight: 700;
     margin: 0;
 }
 .faq-list-item{
@@ -87,7 +89,7 @@ body{
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #fff; 
 }
 /* @media screen and (max-width: 1370px){
     body{
