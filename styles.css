@@ -1,3 +1,11 @@
+/* NEED HELP WITH 
+1. The faq-container goes down super far and I can't figure out why
+2. Align the arrow-icon to the right margin
+3. On click flip the arrow-icon and make the faq-list-a visible
+4. The space between the faq-list-q's is too wide
+
+*/
+
 html{
     --brand-font: 'Kumbh Sans', sans-serif;
     --background-gradient: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
@@ -15,44 +23,40 @@ body{
     color: var(--dark-blue);
 }
 .container{
-    border-radius: 10px;
-    margin: 50px auto;
+    border-radius: 40px;
+    margin: 124px auto;
     display: flex;
     background: #fff;
-    border: 3px solid black;
+    width: 920px;
 }
 .desktop-graphix-container{
     overflow: hidden;
-    border: 3px solid black;
+    border: 3px solid blue;
 }
 #desktop-img-bg{
     width: 800px;
+    padding: 0;
     margin-left: -500px;
     margin-top: -100px;
     border: 3px solid black;
-
 }
 #desktop-main-img{
     margin-top: -1200px;
     margin-left: -50px;
     border: 3px solid black;
-
 }
 .mobile-graphix-container{
     visibility: hidden;
-    border: 3px solid black;
-
 }
 .faq-container{
-    margin: 3em;
-    border: 3px solid black;
-
+    border: 3px solid pink;
+    margin: 0;
+    padding: 0;
 }
 .faq-list{
     list-style: none;
     padding: 0;
-    border: 3px solid red;
-
+    border: 3px solid blue;
 }
 .faq-container h1{
     font-weight: 700;
@@ -91,7 +95,6 @@ body{
         visibility: hidden;
     }
     .mobile-graphix-container{
-        display: none;
-        visibility: hidden;
+        visibility: visible;
     }
 } */
