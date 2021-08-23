@@ -5,6 +5,7 @@ html{
 body{
     max-width: 1440px;
     background: var(--background-gradient);
+    font-family: var(--brand-font);
 }
 .container{
     border-radius: 10px;
