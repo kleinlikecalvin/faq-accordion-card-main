@@ -12,20 +12,71 @@ body{
     max-width: 1440px;
     background: var(--background-gradient);
     font-family: var(--brand-font);
-    font-size: 12px;
     color: var(--dark-blue);
 }
 .container{
     border-radius: 10px;
-    margin: 10em auto;
+    margin: 50px auto;
     display: flex;
     background: #fff;
+    border: 3px solid black;
+}
+.desktop-graphix-container{
+    overflow: hidden;
+    border: 3px solid black;
+}
+#desktop-img-bg{
+    width: 800px;
+    margin-left: -500px;
+    margin-top: -100px;
+    border: 3px solid black;
+
+}
+#desktop-main-img{
+    margin-top: -1200px;
+    margin-left: -50px;
+    border: 3px solid black;
+
 }
 .mobile-graphix-container{
     visibility: hidden;
+    border: 3px solid black;
+
 }
-h1 .faq-container{
+.faq-container{
+    margin: 3em;
+    border: 3px solid black;
+
+}
+.faq-list{
+    list-style: none;
+    border: 3px solid black;
+
+}
+.faq-container h1{
     font-weight: 700;
+    font-size: 40px;
+    border: 3px solid black;
+
+}
+.faq-list-item{
+    border-bottom: 1px solid hsla(240, 6%, 50%, 30%);
+    border: 3px solid black;
+
+}
+.faq-list-q{
+    text-decoration: none;
+    color: var(--dark-grey);
+    border: 3px solid black;
+
+}
+.faq-list-q:hover{
+    color: var(--soft-red);
+}
+.faq-list-a{
+    visibility: hidden;
+    border: 3px solid black;
+
 }
 .attribution { 
     font-size: 11px; 
