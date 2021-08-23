@@ -1,11 +1,19 @@
 html{
     --brand-font: 'Kumbh Sans', sans-serif;
     --background-gradient: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    --dark-blue: hsl(238, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+    --very-dark-grey: hsl(237, 12%, 33%);
+    --dark-grey: hsl(240, 6%, 50%);
+    --light-grey: hsl(240, 5%, 91%);
+
 }
 body{
     max-width: 1440px;
     background: var(--background-gradient);
     font-family: var(--brand-font);
+    font-size: 12px;
+    color: var(--dark-blue);
 }
 .container{
     border-radius: 10px;
