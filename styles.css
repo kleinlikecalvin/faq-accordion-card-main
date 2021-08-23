@@ -1,6 +1,10 @@
+html{
+    --brand-font: 'Kumbh Sans', sans-serif;
+    --background-gradient: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
 body{
     max-width: 1440px;
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background: var(--background-gradient);
 }
 .container{
     border-radius: 10px;
@@ -11,8 +15,12 @@ body{
 .mobile-graphix-container{
     visibility: hidden;
 }
+h1 .faq-container{
+    font-weight: 700;
+}
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
