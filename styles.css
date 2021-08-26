@@ -26,28 +26,18 @@ body{
     border-radius: 20px;
     margin: 8em auto;
     display: flex;
+    align-items: center;
     background:#fff;
     width: 920px;
     box-shadow: 0px 9px 26px -12px var(--dark-blue);
 }
 .graphix-container{
     width: 50%;
-    margin-top: var(--container-margin);
-    margin-bottom: var(--container-margin);
 }
-/* .desktop-graphix-container{
-    display: flex;
-}  */
-#desktop-img-bg{
-    position: absolute;
+.desktop-graphix-container{
     overflow: hidden;
-    margin-top: -370px;
-    margin-left: -600px;
-}
+}  
 #desktop-main-img{
-    position: absolute;
-    overflow: hidden;
-    object-fit: cover;
     margin-top: -20px;
     margin-left: -100px;
 }
@@ -61,8 +51,7 @@ body{
 }
 .faq-container{
     width: 50%;
-    margin-top: var(--container-margin);
-    margin-bottom: var(--container-margin);
+    padding: 4em;
 }
 .faq-list{
     list-style: none;
