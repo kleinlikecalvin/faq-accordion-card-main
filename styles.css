@@ -82,17 +82,14 @@ body{
     color: var(--soft-red);
 }
 .faq-list-a{
-    display: none;
+    visibility: hidden;
     color: var(--dark-grey);
+	position: absolute;
 }
 .arrow-icon{
     float: right;
     margin-top: 0.5em;
 }
-/* .arrow-icon:active{
-    transform: rotate(180);
-    transition: 0.5s;
-} */
 .attribution { 
     font-size: 11px; 
     text-align: center; 
