@@ -39,11 +39,11 @@ body{
 }  
 #desktop-main-img{
     margin-top: -20px;
-    margin-left: -80px;
+    margin-left: -85px;
 }
 #orange-box{
     position: absolute;
-    margin-top: -300px;
+    margin-top: -290px;
     margin-left: -130px;
 }
 .mobile-graphix-container{
@@ -80,10 +80,10 @@ body{
     float: right;
     margin-top: 0.5em;
 }
-.arrow-icon:active{
+/* .arrow-icon:active{
     transform: rotate(180);
     transition: 0.5s;
-}
+} */
 .attribution { 
     font-size: 11px; 
     text-align: center; 
