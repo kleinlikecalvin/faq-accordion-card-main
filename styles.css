@@ -1,7 +1,6 @@
 /* NEED HELP WITH 
-1. The overflow isn't hiding
-2. Align the arrow-icon to the right margin
-3. On click flip the arrow-icon and make the faq-list-a visible
+1. mess with the graphics margins
+3. On click flip the arrow-icon and make the faq-list-a visible - transition and transform/rotate
 4. Mobile
 5. Readme
 */
@@ -28,7 +27,7 @@ body{
     display: flex;
     align-items: center;
     background:#fff;
-    width: 920px;
+    max-width: 920px;
     box-shadow: 0px 9px 26px -12px var(--dark-blue);
 }
 .graphix-container{
@@ -36,14 +35,15 @@ body{
 }
 .desktop-graphix-container{
     overflow: hidden;
+    padding: 4em 0;
 }  
 #desktop-main-img{
     margin-top: -20px;
-    margin-left: -100px;
+    margin-left: -80px;
 }
 #orange-box{
     position: absolute;
-    margin-top: 120px;
+    margin-top: -270px;
     margin-left: -140px;
 }
 .mobile-graphix-container{
@@ -62,6 +62,7 @@ body{
 }
 .faq-list-item{
     padding: 1em;
+    padding-left: 0;
     border-bottom: 1px solid var(--light-grey);
 }
 .faq-list-q{
@@ -74,6 +75,14 @@ body{
 .faq-list-a{
     display: none;
     color: var(--dark-grey);
+}
+.arrow-icon{
+    float: right;
+    margin-top: 0.5em;
+}
+.arrow-icon:active{
+    transform: rotate(180);
+    transition: 0.5s;
 }
 .attribution { 
     font-size: 11px; 
