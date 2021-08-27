@@ -1,5 +1,5 @@
 /* NEED HELP WITH 
-1. mess with the graphics margins
+2. JS
 3. On click flip the arrow-icon and make the faq-list-a visible - transition and transform/rotate
 4. Mobile
 5. Readme
@@ -43,8 +43,8 @@ body{
 }
 #orange-box{
     position: absolute;
-    margin-top: -270px;
-    margin-left: -140px;
+    margin-top: -300px;
+    margin-left: -130px;
 }
 .mobile-graphix-container{
     display: none;
