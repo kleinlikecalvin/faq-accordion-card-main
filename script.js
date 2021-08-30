@@ -20,25 +20,25 @@ function showAnswer0(){
 
     if(answer.style.visibility == "visible"){
         faqItem.style.borderBottom = "1px solid var(--light-grey)";
+        question.style.fontWeight = "400";  
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";     
         answer.style.visibility = "hidden";
-        question.style.fontWeight = "400";
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
-        icon.style.transform = "unset";
-        icon.style.transition = "0.4s";
 
     } else {
         faqItem.style.borderBottom = "none";
-        question.style.fontWeight = "700";
+        question.style.fontWeight = "700";        
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
         answer.style.visibility = "visible";
         answer.style.position = "static";
         answer.style.fontSize = "13px";
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
-        icon.style.transform = "rotate(0.5turn)";
-        icon.style.transition = "0.4s";
     }
 }
 
@@ -50,25 +50,25 @@ function showAnswer1(){
 
 
     if(answer.style.visibility == "visible"){
-        answer.style.visibility = "hidden";
         faqItem.style.borderBottom = "1px solid var(--light-grey)";
-        question.style.fontWeight = "400";
+        question.style.fontWeight = "400";  
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";     
+        answer.style.visibility = "hidden";
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
-        icon.style.transform = "unset";
-        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
-        question.style.fontWeight = "700";
+        question.style.fontWeight = "700";        
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
         answer.style.visibility = "visible";
         answer.style.position = "static";
         answer.style.fontSize = "13px";
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
-        icon.style.transform = "rotate(0.5turn)";
-        icon.style.transition = "0.4s";
     }
 }
 
@@ -80,25 +80,25 @@ function showAnswer2(){
 
 
     if(answer.style.visibility == "visible"){
-        answer.style.visibility = "hidden";
         faqItem.style.borderBottom = "1px solid var(--light-grey)";
-        question.style.fontWeight = "400";
+        question.style.fontWeight = "400";  
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";     
+        answer.style.visibility = "hidden";
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
-        icon.style.transform = "unset";
-        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
-        question.style.fontWeight = "700";
+        question.style.fontWeight = "700";        
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
         answer.style.visibility = "visible";
         answer.style.position = "static";
         answer.style.fontSize = "13px";
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
-        icon.style.transform = "rotate(0.5turn)";
-        icon.style.transition = "0.4s";
     }
 }
 
@@ -140,24 +140,24 @@ function showAnswer4(){
 
 
     if(answer.style.visibility == "visible"){
-        answer.style.visibility = "hidden";
         faqItem.style.borderBottom = "1px solid var(--light-grey)";
-        question.style.fontWeight = "400";
+        question.style.fontWeight = "400";  
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";     
+        answer.style.visibility = "hidden";
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
-        icon.style.transform = "unset";
-        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
-        question.style.fontWeight = "700";
+        question.style.fontWeight = "700";        
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
         answer.style.visibility = "visible";
         answer.style.position = "static";
         answer.style.fontSize = "13px";
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
-        icon.style.transform = "rotate(0.5turn)";
-        icon.style.transition = "0.4s";
     }
 }
