@@ -16,6 +16,7 @@ function showAnswer0(){
     const faqItem = document.getElementById("faq-item0");
     const question = question0;
     const answer = document.getElementById("faq-a0");
+    const icon = document.getElementById("arrow-icon0");
 
     if(answer.style.visibility == "visible"){
         answer.style.visibility = "hidden";
@@ -24,6 +25,8 @@ function showAnswer0(){
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
         question.style.fontWeight = "700";
@@ -33,6 +36,8 @@ function showAnswer0(){
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
     }
 }
 
@@ -40,6 +45,8 @@ function showAnswer1(){
     const faqItem = document.getElementById("faq-item1");
     const question = question1;
     const answer = document.getElementById("faq-a1");
+    const icon = document.getElementById("arrow-icon1");
+
 
     if(answer.style.visibility == "visible"){
         answer.style.visibility = "hidden";
@@ -48,6 +55,8 @@ function showAnswer1(){
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
         question.style.fontWeight = "700";
@@ -57,6 +66,8 @@ function showAnswer1(){
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
     }
 }
 
@@ -64,6 +75,8 @@ function showAnswer2(){
     const faqItem = document.getElementById("faq-item2");
     const question = question2;
     const answer = document.getElementById("faq-a2");
+    const icon = document.getElementById("arrow-icon2");
+
 
     if(answer.style.visibility == "visible"){
         answer.style.visibility = "hidden";
@@ -72,6 +85,8 @@ function showAnswer2(){
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
         question.style.fontWeight = "700";
@@ -81,6 +96,8 @@ function showAnswer2(){
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
     }
 }
 
@@ -88,6 +105,8 @@ function showAnswer3(){
     const faqItem = document.getElementById("faq-item3");
     const question = question3;
     const answer = document.getElementById("faq-a3");
+    const icon = document.getElementById("arrow-icon3");
+
 
     if(answer.style.visibility == "visible"){
         answer.style.visibility = "hidden";
@@ -96,6 +115,8 @@ function showAnswer3(){
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
         question.style.fontWeight = "700";
@@ -105,6 +126,8 @@ function showAnswer3(){
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
     }
 }
 
@@ -112,6 +135,8 @@ function showAnswer4(){
     const faqItem = document.getElementById("faq-item4");
     const question = question4;
     const answer = document.getElementById("faq-a4");
+    const icon = document.getElementById("arrow-icon4");
+
 
     if(answer.style.visibility == "visible"){
         answer.style.visibility = "hidden";
@@ -120,6 +145,8 @@ function showAnswer4(){
         answer.style.position = "absolute";
         answer.style.borderBottom = "none";
         answer.style.paddingBottom = "0";
+        icon.style.transform = "unset";
+        icon.style.transition = "0.4s";
     } else {
         faqItem.style.borderBottom = "none";
         question.style.fontWeight = "700";
@@ -129,5 +156,7 @@ function showAnswer4(){
         answer.style.margin = "0";
         answer.style.borderBottom = "1px solid var(--light-grey)";
         answer.style.paddingBottom = "1em";
+        icon.style.transform = "rotate(0.5turn)";
+        icon.style.transition = "0.4s";
     }
 }
