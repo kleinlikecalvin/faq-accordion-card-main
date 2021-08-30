@@ -19,7 +19,7 @@ question4.addEventListener("click", showAnswer4);
 
 function showAnswer0(){
     question0.style.fontWeight = "700";
-    question0.style.borderBottom = "none"
+    faqItem.style.borderBottom = "none"
     answer0.style.visibility = "visible";
     answer0.style.position = "static";
     answer0.style.fontSize = "13px";
