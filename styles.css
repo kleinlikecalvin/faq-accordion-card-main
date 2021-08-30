@@ -134,7 +134,7 @@ body{
     }
     .faq-container{
         width: unset;
-        padding: 1em;
+        padding: unset;
     }
     .faq-container h1{
         margin: 0 auto;
@@ -142,6 +142,9 @@ body{
     }
     .faq-list-item{
         padding-right: 0;
+    }
+    .faq-list-item::before{
+        padding: 1em;
     }
     .arrow-icon{
         float: right;
