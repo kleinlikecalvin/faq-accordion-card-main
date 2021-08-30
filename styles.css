@@ -1,6 +1,5 @@
 /* NEED HELP WITH 
-3. Everything in FAQ looks good when show but it looks whack when the answers are hidden.s
-4. Mobile
+3. Everything in FAQ looks good when shown but it looks whack when the answers are hidden.
 5. Readme
 */
 
@@ -135,6 +134,7 @@ body{
     .faq-container{
         width: unset;
         padding: unset;
+        padding: 1em;
     }
     .faq-container h1{
         margin: 0 auto;
@@ -142,9 +142,6 @@ body{
     }
     .faq-list-item{
         padding-right: 0;
-    }
-    .faq-list-item::before{
-        padding: 1em;
     }
     .arrow-icon{
         float: right;
