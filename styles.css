@@ -81,13 +81,31 @@ body{
     cursor: pointer;
 }
 .faq-list-a{
-    visibility: hidden;
+    display: none;
     color: var(--dark-grey);
-	position: absolute;
 }
 .arrow-icon{
     float: right;
     margin-top: 0.5em;
+    transition: 0.4s;
+    transform: unset;
+}
+.changeItem{
+    border-bottom: none;
+}
+.changeQ{
+    font-weight: 700;
+}
+.changeIcon{
+    transform: rotate(0.5turn);
+    float: right;
+    transition: 0.4s;
+}
+.showA{
+    font-size: 13px;
+    margin: 0;
+    border-bottom: 1px solid var(--light-grey);
+    padding-bottom: 1em;
 }
 .attribution { 
     font-size: 11px; 

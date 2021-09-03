@@ -1,3 +1,24 @@
+jQuery(
+    function(){
+        $("#faq-q0").click( 
+            function(){
+                $("#faq-q0").addClass("changeQ");
+                $("#faq-item0").addClass("changeItem");
+                $("#arrow-icon0").addClass("changeIcon");
+                $("#faq-a0").toggle();
+                $("#faq-a0").addClass("showA");
+            }, 
+            function(){
+                $("#faq-q0").addClass("faq-list-q");
+                $("#faq-item0").addClass("faq-list-item");
+                $("#arrow-icon0").addClass("arrow-icon");
+                $("#faq-a0").toggle();
+                $("#faq-a0").removeClass();
+            }
+        );//end question event
+    }//end main function container
+); //end jQuery main container
+
 // const question0 = document.getElementById("faq-q0");
 // const question1 = document.getElementById("faq-q1");
 // const question2 = document.getElementById("faq-q2");
