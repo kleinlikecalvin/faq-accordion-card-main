@@ -98,11 +98,16 @@ body {
 .changeQ {
   font-weight: 700;
 }
-.changeIcon {
+.changeArrow {
   transform: rotate(0.5turn);
   float: right;
   transition: 0.4s;
 }
+/* .arrowDown {
+  transform: rotate(0.5turn);
+  float: right;
+  transition: 0.4s;
+} */
 .showA {
   font-size: 13px;
   margin: 0;

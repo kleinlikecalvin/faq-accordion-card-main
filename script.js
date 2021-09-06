@@ -2,20 +2,49 @@ jQuery(
     function(){
         $("#faq-q0").click( 
             function(){
-                $("#faq-q0").addClass("changeQ");
-                $("#faq-item0").addClass("changeItem");
-                $("#arrow-icon0").addClass("changeIcon");
+                $("#faq-q0").toggleClass("changeQ");
+                $("#faq-item0").toggleClass("changeItem");
+                $("#arrow-icon0").toggleClass("changeArrow");
                 $("#faq-a0").toggle();
-                $("#faq-a0").addClass("showA");
-            }, 
-            function(){
-                $("#faq-q0").addClass("faq-list-q");
-                $("#faq-item0").addClass("faq-list-item");
-                $("#arrow-icon0").addClass("arrow-icon");
-                $("#faq-a0").toggle();
-                $("#faq-a0").removeClass();
+                $("#faq-a0").toggleClass("showA");
             }
-        );//end question event
+        );//end question0 event
+        $("#faq-q1").click( 
+            function(){
+                $("#faq-q1").toggleClass("changeQ");
+                $("#faq-item1").toggleClass("changeItem");
+                $("#arrow-icon1").toggleClass("changeArrow");
+                $("#faq-a1").toggle();
+                $("#faq-a1").toggleClass("showA");
+            }
+        );//end question1 event
+        $("#faq-q2").click( 
+            function(){
+                $("#faq-q2").toggleClass("changeQ");
+                $("#faq-item2").toggleClass("changeItem");
+                $("#arrow-icon2").toggleClass("changeArrow");
+                $("#faq-a2").toggle();
+                $("#faq-a2").toggleClass("showA");
+            }
+        );//end question2 event    
+        $("#faq-q3").click( 
+            function(){
+                $("#faq-q3").toggleClass("changeQ");
+                $("#faq-item3").toggleClass("changeItem");
+                $("#arrow-icon3").toggleClass("changeArrow");
+                $("#faq-a3").toggle();
+                $("#faq-a3").toggleClass("showA");
+            }
+        );//end question3 event 
+        $("#faq-q4").click( 
+            function(){
+                $("#faq-q4").toggleClass("changeQ");
+                $("#faq-item4").toggleClass("changeItem");
+                $("#arrow-icon4").toggleClass("changeArrow");
+                $("#faq-a4").toggle();
+                $("#faq-a4").toggleClass("showA");
+            }
+        );//end question event        
     }//end main function container
 ); //end jQuery main container
 
