@@ -1,3 +1,7 @@
+/* NOTES
+1. When on desktop and clicking the questions, the bg img of the graphix container gets messed up
+2. I messed up my repo and the page wont work */
+
 html {
   --brand-font: "Kumbh Sans", sans-serif;
   --background-gradient: linear-gradient(
@@ -29,6 +33,9 @@ body {
 }
 .graphix-container {
   width: 50%;
+  background-image: url(images/bg-pattern-desktop.svg);
+  background-position: right 10px bottom -180px;
+  background-repeat: no-repeat;
 }
 .desktop-graphix-container {
   overflow: hidden;
