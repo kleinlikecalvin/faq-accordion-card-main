@@ -44,7 +44,7 @@ jQuery(
                 $("#faq-a4").toggle();
                 $("#faq-a4").toggleClass("showA");
             }
-        );//end question event        
+        );//end question4 event        
     }//end main function container
 ); //end jQuery main container
 
