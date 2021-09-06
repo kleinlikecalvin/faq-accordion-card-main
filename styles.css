@@ -109,7 +109,7 @@ body {
   font-size: 13px;
   margin: 0;
   border-bottom: 1px solid var(--light-grey);
-  padding-bottom: 1em;
+  padding-bottom: var(--mobile-list-margin);
 }
 .attribution {
   font-size: 11px;
@@ -153,6 +153,8 @@ body {
   .faq-container {
     width: 100%;
     padding: unset;
+    margin-top: 3em;
+    margin-bottom: 2em;
   }
   .faq-container h1 {
     margin: 0 auto;
