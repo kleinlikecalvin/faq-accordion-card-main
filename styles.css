@@ -15,6 +15,8 @@ html {
   --dark-grey: hsl(240, 6%, 50%);
   --light-grey: hsl(240, 5%, 91%);
   --container-margin: 4em;
+  height: 100vh;
+  --mobile-list-margin: 20.8px;
 }
 body {
   background: var(--background-gradient);
@@ -103,11 +105,6 @@ body {
   float: right;
   transition: 0.4s;
 }
-/* .arrowDown {
-  transform: rotate(0.5turn);
-  float: right;
-  transition: 0.4s;
-} */
 .showA {
   font-size: 13px;
   margin: 0;
@@ -122,9 +119,6 @@ body {
   color: #fff;
 }
 @media screen and (max-width: 1370px) {
-  body {
-    height: 100vh;
-  }
   .container {
     margin: 2em auto;
     margin-top: 8em;
@@ -157,19 +151,23 @@ body {
     margin-left: 13px;
   }
   .faq-container {
-    width: unset;
+    width: 100%;
     padding: unset;
-    padding: 1em;
   }
   .faq-container h1 {
     margin: 0 auto;
     text-align: center;
   }
   .faq-list-item {
+    margin-left: var(--mobile-list-margin);
+    margin-right: var(--mobile-list-margin);
     padding-right: 0;
   }
-  .arrow-icon {
-    float: right;
-    margin-top: 0.5em;
+  .faq-list-q {
+    width: 100%;
+  }
+  .faq-list-a {
+    margin-left: var(--mobile-list-margin);
+    margin-right: var(--mobile-list-margin);
   }
 }
