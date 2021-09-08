@@ -130,6 +130,7 @@ body {
   }
   .graphix-container {
     width: 100%;
+    background-image: none;
   }
   .desktop-graphix-container {
     display: none;
