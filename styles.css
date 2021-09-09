@@ -34,7 +34,7 @@ body {
 .graphix-container {
   width: 50%;
   background-image: url(images/bg-pattern-desktop.svg);
-  background-position: right 10px bottom -180px;
+  background-position: right 10px center;
   background-repeat: no-repeat;
 }
 .desktop-graphix-container {
