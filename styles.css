@@ -33,6 +33,9 @@ body {
 }
 .graphix-container {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url(images/bg-pattern-desktop.svg);
   background-position: right 10px center;
   background-repeat: no-repeat;
@@ -47,7 +50,7 @@ body {
 }
 #orange-box {
   position: absolute;
-  margin-top: -290px;
+  margin-top: 30px;
   margin-left: -130px;
 }
 .mobile-graphix-container {
