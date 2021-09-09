@@ -102,7 +102,7 @@ body {
 .changeItem {
   border-bottom: none;
 }
-.changeQ {
+.activeQ {
   font-weight: 700;
 }
 .changeArrow {

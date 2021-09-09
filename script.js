@@ -1,5 +1,6 @@
 jQuery(
     function(){
+        $('.faq-list-item').click(console.log)
         $("#faq-q0").click( 
             function(){
                 $("#faq-q0").toggleClass("changeQ");
