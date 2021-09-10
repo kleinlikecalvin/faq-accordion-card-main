@@ -92,7 +92,7 @@ body {
   color: var(--soft-red);
   cursor: pointer;
 }
-.faq-list-item.show .faq-list-q {
+.faq-list-item.show + .faq-list-q {
   font-weight: 700;
 }
 .faq-list-a {
@@ -102,10 +102,10 @@ body {
   border-bottom: 1px solid var(--light-grey);
   padding-bottom: var(--mobile-list-margin);
 }
-.faq-list-item .faq-list-a {
+.faq-list-item + .faq-list-a {
   display: none;
 }
-.faq-list-item.show .faq-list-a {
+.faq-list-item.show + .faq-list-a {
   display: unset;
 }
 .arrow-icon {
