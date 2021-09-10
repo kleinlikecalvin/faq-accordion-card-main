@@ -75,6 +75,9 @@ body {
   padding-left: 0;
   border-bottom: 1px solid var(--light-grey);
 }
+.faq-list-item.show {
+  border-bottom: none;
+}
 .faq-list-q {
   color: var(--very-dark-grey);
   border: none;
@@ -89,9 +92,21 @@ body {
   color: var(--soft-red);
   cursor: pointer;
 }
+.faq-list-item.show .faq-list-q {
+  font-weight: 700;
+}
 .faq-list-a {
-  display: none;
   color: var(--dark-grey);
+  font-size: 13px;
+  margin: 0;
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: var(--mobile-list-margin);
+}
+.faq-list-item .faq-list-a {
+  display: none;
+}
+.faq-list-item.show .faq-list-a {
+  display: unset;
 }
 .arrow-icon {
   float: right;
@@ -99,22 +114,10 @@ body {
   transition: 0.4s;
   transform: unset;
 }
-.changeItem {
-  border-bottom: none;
-}
-.activeQ {
-  font-weight: 700;
-}
-.changeArrow {
+.faq-list-item.show .arrow-icon {
   transform: rotate(0.5turn);
   float: right;
   transition: 0.4s;
-}
-.showA {
-  font-size: 13px;
-  margin: 0;
-  border-bottom: 1px solid var(--light-grey);
-  padding-bottom: var(--mobile-list-margin);
 }
 .attribution {
   font-size: 11px;
