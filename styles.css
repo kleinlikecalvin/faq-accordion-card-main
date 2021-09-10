@@ -73,7 +73,7 @@ body {
 .faq-list-item {
   padding: 1em;
   padding-left: 0;
-  border-bottom: 1px solid var(--light-grey);
+  /* border-bottom: 1px solid var(--light-grey); */
 }
 .faq-list-item.show {
   border-bottom: none;
@@ -99,14 +99,14 @@ body {
   color: var(--dark-grey);
   font-size: 13px;
   margin: 0;
-  border-bottom: 1px solid var(--light-grey);
   padding-bottom: var(--mobile-list-margin);
+  border-bottom: 1px solid var(--light-grey);
 }
 .faq-list-item + .faq-list-a {
-  display: none;
+  max-height: 0px;
 }
 .faq-list-item.show + .faq-list-a {
-  display: unset;
+  max-height: 10000000px;
 }
 .arrow-icon {
   float: right;
