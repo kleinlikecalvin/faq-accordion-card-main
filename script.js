@@ -7,14 +7,11 @@ $questions.click(function clickHandler(event) {
     // } else {
     //     $(event.currentTarget).addClass('show');
     // }
-    // if($(event.currentTarget).length > 1){
-    //     $(event.currentTarget).removeClass("show");
-    // } else {
-        $(event.currentTarget).toggleClass("show");
-    // }
-    // console.log($(event.currentTarget).length);
-    // console.log($questions.length);
 
+    $(event.currentTarget).toggleClass("show");
+    // if($(event.currentTarget).hasClass("show")){
+    
+    // }
 });
         // $("#faq-q0").click( 
         //     function(){
