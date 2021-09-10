@@ -2,7 +2,7 @@ jQuery(
     function(){
         $('.faq-list-item').click(function clickHandler(event) {
             console.log(event.currentTarget);
-            $(event.currentTarget).toggle('show');
+            $(event.currentTarget).toggleClass('show');
         });
         // $("#faq-q0").click( 
         //     function(){
