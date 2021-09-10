@@ -92,7 +92,7 @@ body {
   color: var(--soft-red);
   cursor: pointer;
 }
-.faq-list-item.show + .faq-list-q {
+.faq-list-item.show .faq-list-q {
   font-weight: 700;
 }
 .faq-list-a {
