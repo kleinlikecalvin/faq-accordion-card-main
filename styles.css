@@ -96,11 +96,13 @@ body {
   font-weight: 700;
 }
 .faq-list-a {
+  box-sizing: border-box;
   color: var(--dark-grey);
   font-size: 13px;
   margin: 0;
   padding-bottom: var(--mobile-list-margin);
   border-bottom: 1px solid var(--light-grey);
+  overflow: hidden;
 }
 .faq-list-item + .faq-list-a {
   max-height: 0px;
