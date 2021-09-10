@@ -96,19 +96,20 @@ body {
   font-weight: 700;
 }
 .faq-list-a {
-  box-sizing: border-box;
   color: var(--dark-grey);
   font-size: 13px;
   margin: 0;
-  padding-bottom: var(--mobile-list-margin);
   border-bottom: 1px solid var(--light-grey);
   overflow: hidden;
+  box-sizing: border-box;
+  transition: 0.4s;
 }
 .faq-list-item + .faq-list-a {
   max-height: 0px;
 }
 .faq-list-item.show + .faq-list-a {
   max-height: 10000000px;
+  padding-bottom: var(--mobile-list-margin);
 }
 .arrow-icon {
   float: right;
