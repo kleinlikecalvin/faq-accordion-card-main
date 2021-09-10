@@ -101,9 +101,10 @@ body {
 }
 .faq-list-item + .faq-list-a {
   max-height: 0px;
+  padding-bottom: 0;
 }
 .faq-list-item.show + .faq-list-a {
-  max-height: 10000000px;
+  max-height: 500px;
   padding-bottom: var(--mobile-list-margin);
 }
 .arrow-icon {

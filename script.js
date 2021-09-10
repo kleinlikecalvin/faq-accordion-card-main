@@ -2,9 +2,10 @@ jQuery(
     function(){
         const $questions = $('.faq-list-item');
         $questions.click(function clickHandler(event) {
-            console.log(event.currentTarget);
-            
-            $questions.removeClass('show');
+            // console.log(event.currentTarget);
+            if(){
+                $questions.removeClass('show');
+            }
             $(event.currentTarget).addClass('show');
         });
         // $("#faq-q0").click( 
