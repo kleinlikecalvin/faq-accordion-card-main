@@ -1,8 +1,11 @@
 jQuery(
     function(){
-        $('.faq-list-item').click(function clickHandler(event) {
+        const $questions = $('.faq-list-item');
+        $questions.click(function clickHandler(event) {
             console.log(event.currentTarget);
-            $(event.currentTarget).toggleClass('show');
+            
+            $questions.removeClass('show');
+            $(event.currentTarget).addClass('show');
         });
         // $("#faq-q0").click( 
         //     function(){
