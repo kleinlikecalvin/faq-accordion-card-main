@@ -1,13 +1,12 @@
-jQuery(
-    function(){
-        const $questions = $('.faq-list-item');
-        $questions.click(function clickHandler(event) {
-            // console.log(event.currentTarget);
-            if(){
-                $questions.removeClass('show');
-            }
-            $(event.currentTarget).addClass('show');
-        });
+const $questions = $('.faq-list-item');
+$questions.click(function clickHandler(event) {
+    // console.log(event.currentTarget);
+    if(event.currentTarget.className == 'faq-list-item show'){
+        $questions.removeClass('show');
+    } else {
+        $(event.currentTarget).addClass('show');
+    }
+});
         // $("#faq-q0").click( 
         //     function(){
         //         $("#faq-q0").toggleClass("changeQ");
@@ -53,8 +52,7 @@ jQuery(
         //         $("#faq-a4").toggleClass("showA");
         //     }
         // );//end question4 event        
-    }//end main function container
-); //end jQuery main container
+
 
 // const question0 = document.getElementById("faq-q0");
 // const question1 = document.getElementById("faq-q1");
