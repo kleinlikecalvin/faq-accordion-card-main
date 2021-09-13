@@ -1,18 +1,32 @@
 const $questions = $('.faq-list-item');
 $questions.click(function clickHandler(event) {
-    if($questions.hasClass("show") != $(event.currentTarget).hasClass("show")){
-        $questions.removeClass("show");
-        $(event.currentTarget).toggleClass("show");
-    } else {
-        $(event.currentTarget).toggleClass("show");
+    //if the currentTarget is clicked and doesn't have the class "show" then add "show"
+    const alreadyShown = $(event.currentTarget).hasClass("show");
+    //if a question isn't the currentTarget then it shouldn't have the class "show"
+    $questions.removeClass("show");
+    //if currentTarget is already shown then remove "show" class
+    if(alreadyShown == false){
+        $(event.currentTarget).addClass("show");
     }
-
-});
-//     function hideMe(element){
-//         const $questions = $('.faq-list-item').removeClass("show");
-//     }
     
-// window.hideMe = hideMe();
+    // if($questions.hasClass("show") != $(event.currentTarget).hasClass("show")){
+    //     $(event.currentTarget).toggleClass("show");
+    // } else {
+    //     $(event.currentTarget).toggleClass("show");
+    // }
+
+});//end click event and clickHandler()
+
+//Debugging functions for me to use in the future
+    // function hideMe(element){
+    //     $(element).removeClass("show");
+    // }
+    // function showMe(element){
+    //     $(element).addClass("show");
+    // }
+// window.hideMe = hideMe;
+// window.showMe = showMe;
+//End debugging goods
 
         // $("#faq-q0").click( 
         //     function(){
