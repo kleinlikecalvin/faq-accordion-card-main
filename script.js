@@ -1,17 +1,12 @@
 const $questions = $('.faq-list-item');
 $questions.click(function clickHandler(event) {
     // console.log(event.currentTarget);
-
-    // if(event.currentTarget.className == 'faq-list-item show'){
-    //     $questions.removeClass('show');
-    // } else {
-    //     $(event.currentTarget).addClass('show');
-    // }
-
-    $(event.currentTarget).toggleClass("show");
-    // if($(event.currentTarget).hasClass("show")){
-    
-    // }
+    if($questions.hasClass("show") != $(event.currentTarget).hasClass("show")){
+        $questions.removeClass("show");
+        $(event.currentTarget).addClass("show");
+    } else {
+        $(event.currentTarget).addClass("show");
+    }
 });
         // $("#faq-q0").click( 
         //     function(){
