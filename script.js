@@ -2,11 +2,18 @@ const $questions = $('.faq-list-item');
 $questions.click(function clickHandler(event) {
     if($questions.hasClass("show") != $(event.currentTarget).hasClass("show")){
         $questions.removeClass("show");
-        $(event.currentTarget).addClass("show");
+        $(event.currentTarget).toggleClass("show");
     } else {
-        $(event.currentTarget).addClass("show");
+        $(event.currentTarget).toggleClass("show");
     }
+
 });
+//     function hideMe(element){
+//         const $questions = $('.faq-list-item').removeClass("show");
+//     }
+    
+// window.hideMe = hideMe();
+
         // $("#faq-q0").click( 
         //     function(){
         //         $("#faq-q0").toggleClass("changeQ");
