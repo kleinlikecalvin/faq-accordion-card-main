@@ -89,4 +89,4 @@ I'm looking forward to becoming more accustomed with jQuery and furthering my JS
 
 ## Acknowledgments
 
-As always, a huge thanks to my mentor Nate Walston, I'm getting better every week thanks to you!
+As always, a huge thanks to my mentor Nate Walston, I'm getting better every week because of you!
